@@ -17,7 +17,14 @@ project "ImGui"
         "imstb_rectpack.h",
         "imstb_textedit.h",
         "imstb_truetype.h",
+        "misc/cpp/imgui_stdlib.cpp",
+        "misc/cpp/imgui_stdlib.h",
         "imgui_demo.cpp"
+    }
+
+    includedirs
+    {
+        "./"
     }
 
     filter "system:windows"
