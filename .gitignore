@@ -29,6 +29,9 @@ ipch
 ## Visual Studio files
 *.vcxproj*
 
+## Commonly used CMake directories
+/build*/
+
 ## Xcode artifacts
 project.xcworkspace
 xcuserdata
@@ -38,6 +41,7 @@ examples/*.o.tmp
 examples/*.out.js
 examples/*.out.wasm
 examples/example_emscripten_opengl3/web/*
+examples/example_emscripten_wgpu/web/*
 
 ## JetBrains IDE artifacts
 .idea
